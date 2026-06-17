@@ -1,4 +1,4 @@
-# 🚀 Seçil Store - Dinamik Konfigürasyon Yönetimi (Zero-Downtime)
+# 🚀 Seçil Store - Dinamik Konfigürasyon Yönetimi 
 
 Bu proje, e-ticaret ve arka plan servislerinin deployment, restart veya recycle gerektirmeden, **zero-downtime** (sıfır kesinti) prensibiyle konfigürasyon ayarlarını güncelleyebilmesi için geliştirilmiş mikroservis tabanlı bir mimaridir.
 
@@ -17,7 +17,7 @@ Bu proje, e-ticaret ve arka plan servislerinin deployment, restart veya recycle 
 3. **Fallback Mekanizması (Çökme Koruması):** Veritabanı bağlantısı kopsa dahi kütüphane hata fırlatmaz. Bellekteki (Cache) son başarılı verilerle sistemin kesintisiz çalışmasını garanti eder.
 4. **Client-Side Filtreleme:** React arayüzündeki arama işlemi sunucuya (API) yük bindirmez, state üzerindeki veriler filter metodu ile doğrudan tarayıcı belleğinde filtrelenir.
 
-## ⚙️ Hızlı Başlangıç (Docker ile Kurulum)
+## ⚙️ Hızlı Başlangıç
 
 Tüm sistemi ayağa kaldırmak için bilgisayarınızda Docker yüklü olması yeterlidir.
 
@@ -30,9 +30,9 @@ docker compose up -d --build
 * Backend API Endpoints: http://localhost:5000/api/settings
 * MongoDB Bağlantısı: mongodb://localhost:27017
 
-## 🧪 Unit Testler (TDD Yaklaşımı)
+## 🧪 Unit Testler
 
-Kütüphanenin en kritik iş kuralı olan "Storage'a erişilemediğinde çökmemesi ve varsayılan (default) değerleri dönmesi" kuralı xUnit kullanılarak test edilmiştir. (AAA Prensibi)
+Kütüphanenin en kritik iş kuralı olan "Storage'a erişilemediğinde çökmemesi ve varsayılan (default) değerleri dönmesi" kuralı xUnit kullanılarak test edilmiştir.
 
 Testleri çalıştırmak için terminalde şu komutları girebilirsiniz:
 cd ConfigurationReader.Tests
