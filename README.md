@@ -40,6 +40,7 @@ dotnet test
 
 ## 📁 Proje Yapısı
 
+```text
 SecilCase/
 ├── ConfigurationReader/         # Core DLL (Projenin kalbi, Timer ve Cache burada)
 ├── ConfigurationReader.Tests/   # xUnit Test projesi
