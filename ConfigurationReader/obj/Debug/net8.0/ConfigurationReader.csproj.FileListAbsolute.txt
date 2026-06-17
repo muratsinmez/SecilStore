@@ -1,0 +1,12 @@
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\bin\Debug\net8.0\ConfigurationReader.deps.json
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\bin\Debug\net8.0\ConfigurationReader.dll
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\bin\Debug\net8.0\ConfigurationReader.pdb
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.csproj.AssemblyReference.cache
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.AssemblyInfoInputs.cache
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.AssemblyInfo.cs
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.csproj.CoreCompileInputs.cache
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.dll
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\refint\ConfigurationReader.dll
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ConfigurationReader.pdb
+C:\Users\murat\OneDrive\Desktop\SecilCase\ConfigurationReader\obj\Debug\net8.0\ref\ConfigurationReader.dll

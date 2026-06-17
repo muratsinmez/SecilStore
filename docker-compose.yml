@@ -1,0 +1,38 @@
+version: '3.8'
+
+services:
+  mongodb:
+    image: mongo:latest
+    container_name: secil_mongodb
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+  api:
+    build:
+      context: .
+      dockerfile: ConfigurationManager.Api/Dockerfile
+    container_name: secil_api
+    ports:
+      - "5000:8080" # Dışarıdaki 5000 portunu içerideki 8080'e (API) bağlıyoruz
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_HOST=mongodb # API'ye veritabanının "mongodb" konteyneri olduğunu söylüyoruz
+    restart: always
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: secil_frontend
+    ports:
+      - "5173:80" # Dışarıdaki 5173 portunu içerideki Nginx'e (80) bağlıyoruz
+    depends_on:
+      - api
+    restart: always
+
+volumes:
+  mongo_data:
